@@ -41,8 +41,8 @@ params = argparse.ArgumentParser()
 params.add_argument('-num_search', type=int, default=300, help='iteration time of random searching ')
 params.add_argument('-repeat_time', type=int, default=1, help='repeat time of random searching ')
 params.add_argument('-cross_split', type=int, default=2, help='number of cross validation split ')
-params.add_argument('-params_epoch', type=int, default=100, help=' epoch number of finding parameters ')
-params.add_argument('-optimal_epoch', type=int, default=100, help=' epoch number of optimal parameters ')
+params.add_argument('-params_epoch', type=int, default=10, help=' epoch number of finding parameters ')
+params.add_argument('-optimal_epoch', type=int, default=10, help=' epoch number of optimal parameters ')
 
 args = params.parse_args()
 
